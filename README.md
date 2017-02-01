@@ -1,8 +1,8 @@
 =======
-UCL2016: Open Source GIS: Can you make a career out of "free"?
+UCL2017: Open Source GIS: Making a career out of "free"?
 ============
 
-Talk to UCL GIS Postgrads, February 4th 2016
+Talk to UCL GIS Postgrads, February 2nd 2017
 
-Online version at http://archaeogeek.github.io/ucl_2016
+Online version at http://archaeogeek.github.io/ucl_2017
 
