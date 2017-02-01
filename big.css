@@ -35,7 +35,7 @@ div {
   top:0px;
   left:0px;
   padding:75px;
-  line-height:97%;
+  line-height:99%;
 }
 
 div.center {
@@ -48,4 +48,12 @@ div.imageText {
 
 notes {
     display:none;
+}
+
+.center-image-top {
+    background-position: top center;
+}
+
+.center-image-bottom {
+    background-position: center bottom;
 }
