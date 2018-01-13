@@ -1,347 +1,192 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Open Source: Making a career out of "free"</title>
-<meta charset='utf-8'><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<link href='big.css' rel='stylesheet' type='text/css' />
-<link href='ucl2017.css' rel='stylesheet' type='text/css' />
-<style>
-  .new-shiny { background: #aaaaaa; }
-</style>
-<script src='big.js'></script></head>
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Source: Making a career out of "free"</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
 
 	<body>
-				<div>
-					<h2>Open Source: Making a career out of "free"</h2>
-					<br />
-					<p>
-						<small>UCL, February 2017</small>
-						</p>
-						<p>
-    			<small class='nobreak'><a href="http://about.me/jocook">Jo Cook</a> / <a href="http://twitter.com/archaeogeek">@archaeogeek</a></small>
-					</p>
-				</div>
-				
-				<div>
-				<p>Follow along at <a href="http://archaeogeek.github.io/ucl_2017">archaeogeek.github.io/ucl_2017</a></p>
-			</div>
 
-				<div>
+		<div class="reveal">
+			<div class="slides">
+			<section>
+
+					<h1>Open Source GIS</h1>
+					<h2>Making a career out of &ldquo;free&rdquo;</h2>
+					<br />
+					<h3 style="text-transform:uppercase">UCL, 2018</h3>
+						<p class='nobreak'><a href="http://about.me/jocook">Jo Cook</a> / <a href="http://twitter.com/archaeogeek">@archaeogeek</a></p>
+			</section>
+				
+			<section>
+				<h3>Follow along at <a href="http://archaeogeek.github.io/ucl_2016">archaeogeek.github.io/ucl_2018</a></h3>
+			</section>
+
+				<section>
 					<h2>The Questions</h2>
 						<p>Who is this person standing up here?</p>
 						<p>Who does she work for?</p>
 						<p>What do they do?</p>
 						<p>What technologies do they use?</p>
-						<p>What's our day to day work like?</p>
 						<p>What skills are important?</p>
 						<p>What's not so important?</p>
-				</div>
+				</section>
 
-				<div>
-					<h2>Who is this person?</h2>
-					<p>Maths &rarr; Underwater Archaeology &rarr; Land Archaeology &rarr; Astun Technology &equals; No qualifications in GIS!</p>
-					<notes>I'm a consultant and metadata lead at Astun Technology. I studied Mathematics at the University of Durham, then Underwater Archaeology at the University of St Andrews, worked as a land archaeologist with Oxford Archaeology for 10 years, and then joined Astun Technology 6 years ago.</notes>
-					</div>
+				<section data-background="./images/kirkbylonsdale.png" data-background-position="bottom">
+				<h2 style="color:black">Who is this person?</h2>
+				<p>Maths &rarr; Underwater Archaeology &rarr; Land Archaeology &rarr; Astun Technology &equals; No qualifications in GIS!</p>
+				<p style="color:black">I'm a consultant and metadata lead at Astun Technology. I studied Mathematics at the University of Durham, then Underwater Archaeology at the University of St Andrews, worked as a land archaeologist with Oxford Archaeology for 10 years, and then joined Astun Technology 6 years ago.</p></section>
+				
+				<section>
+				<p>Astun are a small firm, with 20 staff. We're based in Epsom but have staff spread across the UK and abroad.</p>
+				<img class="center" src="./images/teamphoto_2.jpg" alt="team photo" width="800">
+				</section>
+				
+				<section>
+				<h2>iShare Maps and GIS</h2>
+				<p>Our primary product is a web-based GIS solution for local authorities, based on open source software. See <a href="http://mydistrict.chichester.gov.uk/mycdc.aspx" target="_blank">My Chichester</a> and <a href="http://mywycombe.wycombe.gov.uk/mywycombe.aspx" target="_blank">My Wycombe</a> for examples</p>
+				<aside class="notes">Our suite of products is used by more than 30 local authorities (district and county), as well as emergency services, and housing associations</aside>
+				</section>
+
+				<section data-background="./images/mychichester.png" data-background-position="top">
+				</section>
+
+				
+				<section>
+				<h2>Metadata Management</h2>
+				<p>We also provide metadata solutions to allow local authorities meet their INSPIRE requirements, and <a href="https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/home" target="_blank">complete metadata portals</a> for larger clients.</p></section>
+
+				<section data-background="./images/ssdi.png" data-background-position="top">
+				</section>
+				
+				<section data-background="./images/hackathon.png" data-background-position="top">
+				<p style="color:black">We also do bespoke work, training, hackathons, and conferences</p></section>
+				
+				<section>
+				<h2>What packages do we use?</h2>
+				The main packages are PostgreSQL and PostGIS, OpenLayers, Mapserver, Geonetwork and OGR</section>
+				
+				<section><p>We also use QGIS, Leaflet, Geoserver, Java and <b>lots</b> of Python</p>
+					<p class="fragment">Increasingly we work remotely "in the cloud" and our focus is on sustainable enterprise-level deployment</p>
+				</section>
+
+				<section>
+					<p>We contribute back by committing bug fixes, enhancements, and documentation to all the projects we use.</p>
+					<p class="fragment">We also sponsor the development of new features, help organising conferences and so on</p>
+				</section>
+				
+				<section>
+				<h2>But how do we make money?</h2>
+				<p>Our products are all based on open source, which is free, so where's the catch?</p></section>
+				
+				<section>Open source is purely about <a href="https://opensource.org/osd" target="_blank">licensing the source code</a>. There's no limitation on charging for development of solutions based on that code</section>
+				
+				<section>
+				<h2>Adding Value</h2>
+				<p>As long as you provide the source code of the core software under it's original license you can charge for development, installation, consultancy, training, maintenance... </p>
+				</section>
+
+				<section>
+					<h2>Confession</h2>
+					<p>We don't do everything with open source</p>
+					<p class="fragment">We use Google for email, Amazon for our virtual servers, and even pay for software sometimes!</p>
+					<p class="fragment">Our ethos is that open is best but you have to be pragmatic...</p>
+				</section>
+
+				<section>
+				<h3>So what is a typical day like working in Open Source?</h3>
+				<img class="center" src="./images/question.png" alt="twitter question" width="400">
+				</section>
+
+				<section>
+					<p>We wrangle data from clients, generally scripting using python and SQL</p>
+					<p class="fragment">We have to understand design, testing, and project management</p>
+				</section>
+				
+				<section data-background="./images/wordcloud.png"></section>
+				
+				<section><h2>What's important?</h2></section>
+				
+				<section>Scripting! If you are going to repeat something, write a script to do it</section>
+				
+				<section data-background="./images/repos.png">Version control! Repositories and concise, well-written commit messages are your saviour</section>
+				
+				<section>Documentation! Everything must be recorded because you might not be the next person to work on the project</section>
+				
+				<section>Management! Learn to manage yourself, your time, and the tasks on your project. Know when you are going "out of scope"</section>
+				
+				<section>The command prompt! Essential for communicating with remote servers, running low-level tools, and often so much quicker than a GUI</section>
+				
+				<section>What's not that important?</section>
+				
+				<section>Being an expert about this one thing! A wide skillset is more useful than a narrow one</section>
+				
+				<section>How have things changed over time?</section>
+				
+				<section>This is the 6th iteration of this talk and I probably do less "real GIS" than I did to start with</section>
+				
+				<section>Much more of what we do is around providing services, that can be designed and deployed once to multiple customers</section>
 					
-					<div><img src='./images/jo_diving.JPG' alt='Jo Diving'></div>
+			</div>
 
-				<div><h3>Experience</h3>
-					<p>Archaeologists have <em>a lot</em> of uses for GIS and generate <em>truck-loads</em> of data</p>
-				</div>
-				
-				<div>
-				<img src='./images/survey_site.jpg' alt='Surveying Site'>
-				</div>
-				<div><img src='./images/gis_archaeology.jpg' alt='GIS in Archaeology'></div>
-				
-				<div>
-					<p>Archaeologists have no money, so I tried open source software</p>
-					<p>but at the time, this was hard work!</p>
-					<notes>In the 0's the established open source GIS package was GRASS, which was command-line only. QGIS was at version 0.7</notes>
-				</div>
+		</div>
 
-				<div>
-					<img src='./images/beginners.png' alt='Beginners'>
-					<notes>This is a slide from a talk I gave in 2007</notes>
-				</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
-				<div>
-					<p>...but...</p>
-				</div>
+		<script>
 
-				<div><img src='./images/opportunities.jpg' alt='Opportunities'></div>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
 
-				<div>
-					<p>This lead to an involvement with the Open Source Geospatial Foundation (OSGeo), and I spoke at FOSS4G 2007 in Victoria, British Columbia</p>
-				</div>
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-				<div data-bodyclass="center-image-bottom">
-				<img src='./images/portablegis_foss4g.png' alt='Portable GIS at FOSS4G'>
-				</div>
-						
-				<div>
-					<p>In 2006 I set up a OSGeo:UK to promote the use of open source GIS in the UK</p>
-					<notes>That was before such things as Ordnance Survey open data and open street map so we campaigned about that too</notes>
-				</div>
- 				
- 				<div>
- 					<p>Stanstead 2006- our first F2F meeting</p>
- 				</div>
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
 
- 				<div>
- 					<img src='./images/uk_osgeo_meeting1.JPG' alt='OSGeo:UK Meeting 1'>
- 				</div>
-
- 				<div>
- 					<p>Nottingham 2013- FOSS4G in the UK!</p>
- 				</div>
-
- 				<div>
- 					<img src='./images/foss4g2013.jpg' alt='FOSS4G 2013'>
- 				</div>
-
- 				<div>My involvement in OSGeo lead to my accepting a role at Astun as a Consultant. I now consider myself a "recovering" archaeologist</div>
-
-		
-				<div data-bodyclass="center-image">
-					<h2>Today</h2>
-					<br />
-					<p>I've been at <a target="_blank" href="https://astuntechnology.com/">Astun Technology</a> since March 2011</p>
-					<img src="./images/teamphoto_2.jpg" alt="Astun Team">
-				</div>
-
-				<div>
-					<p>Our primary product is a suite called iShare that allows organisations to easily add maps and other spatial content on their website</p>
-				</div>
-				<div>
-					<p>It's based on the open source stack of PostgreSQL, PostGIS, MapServer, OGR and OpenLayers</p>
-				</div>
-					
-				<div>
-					<a target="_blank" href="http://mydistrict.chichester.gov.uk/mycdc.aspx">Example Site: My Chichester</a>
-				</div>
-
-				<div>
-					<img src="./images/mychichester.png" alt="My Chichester">
-				</div>
-
-				<div>
-					<h2>Who are our customers?</h2>
-					<br />
-					<p>Councils, Local Authorities, Police Forces, Government Organisations, Mapping Companies...</p>
-				</div>
-
-				<div>
-					<h2>We also make bespoke products</h2>
-				</div>
-					
-				<div data-bodyclass='center-image'><img src="./images/fishmapmon.png" alt="FishMapMon"></div>
-
-				<div>
-					<h2>We run training courses</h2>
-					<br />
-					<img class="center" src="./images/training.jpg" alt="QGIS Training">
-				</div>
-
-				<div>
-					<h2>We help organisations with metadata</h2>
-					<br />
-					<img class="center" src="./images/get-Inspired.gif" alt="Get INSPIREd">
-				</div>
-
-				<div><p>And even build <a target="_blank" href="https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/home">whole metadata portals</a></p></div>
-
-				<div>
-					<h2>We run user groups and Hackathons</h2>
-					<br />
-					<img class="center" src="./images/hackathon.png" alt="Hackathon">
-				</div>
-				<div>
-					<p>We provide <a href="http://t0.ads.astuntechnology.com/demo/" _target="blank">data aggregation services</a> for OS base mapping, address data, NHS Choices, EduBase, Modern Gov, police.uk...</p>
-					<notes>These are provided as WMS/WFS for our clients</notes>
-				</div>
-
-				<div><p>and contribute back by committing to projects, sponsoring development, and organising conferences</p></div>
-
-				<div>
-					<p>As a consultant I help scope projects out, install the software, configure it, hook it up to their data, train them and troubleshoot any problems</p>
-				</div>
-
-				<div><p>As our metadata lead I also look after all our metadata projects and our internal metadata portal</p></div>
-
-				
-				<div>
-					<h2>What software do we use?</h2>
-				</div>
-				
-				<div>As well as PostgreSQL, PostGIS, MapServer, OGR and OpenLayers in our main suite we also use and support...</div>
-
-				<div>...Geonetwork, QGIS, Leaflet, Geoserver, Java and <em>loads</em> of Python</div>
-
-				<div>Increasingly we also use a lot of auto-deployment software such as chef, vagrant, ansible, chocolatey and so on</div>
-
-				<div><p>We also have arguments about which text editor is best!</p>
-				<br />
-				<small>Opinion is basically split between Sublime Text and Vim</small></div>
-
-				<div>So how do we make money using all of this <em>free</em> software?</div>
-
-				<div>Open source is purely about <a href="https://opensource.org/osd" target="_blank">licensing the source code</a>. There's no limitation on charging for development of solutions based on that code</div>
-
-				<div>As long as you provide the source code of the core software under it's original license you can charge for anything else. That includes development, installation, consultancy, training, maintenance...</div>
-				
-				
-				<div>
-				<h2>What's important</h2>
-				<br />
-				<h2>... and what's not</h2>
-				</div>
-
-				<div>
-				<img class="center" src="./images/wordcloud.png" alt="Word Cloud">
-				<notes>I crowd-sourced the answer to this question on Twitter</notes>
-				</div>
-				
-				<div>
-				<h2>General IT Skills are very useful</h2>
-				<br />
-				<p>Scripting: python, bash, SQL</p>
-				<p>Version Control: Git, Mercurial</p>
-				<p>Trouble-shooting/Problem-solving</p>
-				</div>
-				
-				<div>
-				<h2>GIS skills need to be broad-based</h2>
-				<br />
-				<p>Server-based databases, a good overview of packages and formats</p>
-				<p>Standards and web-optimised formats like json</p>
-				<p>Multi-purpose libraries and languages (OGR, Python)</p>
-				</div>
-				
-				<div>
-				<img src="./images/police-data2.png" alt="police api">
-				</div>
-				
-				<div>
-					<h2>General people skills are the most important of all!</h2>
-					<br />
-					<p>Self-learning</p>
-					<p>Self-motivation</p>
-					<p>Project/Task/Time Management</p>
-				</div>
-				
-				<div>
-				<h2>What's not so important</h2>
-				<br />
-				<p>In-depth knowledge of a particular software package</p>
-				<p>Qualifications (sorry)</p>
-				</div>
-				
-				<div>
-				<h2>How have things changed?</h2>
-				</div>
-
-				<div>In the 6 years since I first gave this talk open source GIS has become more acceptable for enterprise use</div>
-
-				<div>I shouldn't need to tell you how cool PostgreSQL, PostGIS and QGIS are now</div>
-
-				<div><p>The tools work better, so now we focus on improving and monitoring their deployment and use in high-pressure enterprise environments<p>
-				<notes>Tools for virtualisation, deployment, monitoring, eg Virtual Servers, virtualenv, Docker, Vagrant, GeoHealthCheck</notes>
-				</div>
-
-				<div>
-					<h2>Top Tips</h2>
-				</div>
-	
-
-				<div>
-					<h2>Python</h2>
-							<p>Both open source and proprietary GIS use python</p>
-							<p>It has modules for working with rasters, vectors, databases and many more</p>
-				</div>
-				<div>
-							<p>You WILL be able to write working code within minutes of starting to use it!</p>
-							<p>Learn about virtual environments for isolating your code</p>
-				</div>
-
-				<div>
-					<h2>Scripting</h2>
-						<p>Whether it's bash, dos, powershell, OGR, SQL, learn to write scripts to do your work rather than relying on a GUI</p>
-				</div>
-				<div>
-						<p>If you have to repeat a task more than once, write a script to do it</p>
-				</div>
-
-
-				<div>
-					<h2>GitHub</h2>
-						<p>The easiest way to learn about repositories and version control</p>
-						<p>It's not just for code- share documentation/presentations/data/your CV</p>
-				</div>
-				<div>
-						<p>Both <a target="_blank" href="https://github.com/Esri">proprietary</a> and <a target="_blank" href="https://github.com/qgis">open source</a> GIS companies have an increasing presence</p>
-						<p>Look at code to try and understand how things work</p>
-						<notes>Check issues and commits for bug fixes</notes>
-				</div>
-
-				<div>
-					<h2>Start small!</h2>
-					<p>My first GitHub commit</p>
-					<img class="center" src="./images/first_commit.png" alt="first commit">
-				</div>
-
-				<div>
-					<img class="center" src="./images/vaguelyrudeplacenames.png" alt="vaguely rude place names">
-				</div>
-
-				<div>
-					<h2>Things to take away</h2>
-						<p>It is <em>definitely</em> possible to make a career in open source GIS!</p>
-				</div>
-				<div>
-						<p>Open source and proprietary software are not mutually exclusive</p>
-						<p>Learning cross-platfrom tools will get you a step up, whatever area you go into</p>
-				</div>
-
-				<div>
-						<p>Scripting and SQL will provide a flexible and powerful alternative to desktop-GIS workflows</p>
-				</div>
-
-				<div>
-					<img class="center" src="./images/employment.jpg" alt="Superior Employment">
-				</div>
-
-				<div class="blink">
-					<h2>Questions?</h2>
-				</div>
-
-				<div>
-					<img class="center" src="./images/tumbleweed.jpg" alt="Tumbleweed">
-				</div>
-
-				<div>
-					<h2>Thanks!</h2>
-					<p>Find me at <a href="http://about.me/jocook">about.me/jocook</a></p>
-					<p>Find this talk at <a href="http://archaeogeek.github.io/ucl_2017">archaeogeek.github.io/ucl_2017</a></p>
-					<p>Find Astun at <a href="http://astuntechnology.com">astuntechnology.com</a></p>
-				</div>
-
-
-
-<script type="text/javascript">
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '4e36eb1ef5a1f53d6f000001');
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
-</script>
-		
+		</script>
 
 	</body>
 </html>

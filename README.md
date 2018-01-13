@@ -1,5 +1,5 @@
 =======
-UCL2017: Open Source GIS: Making a career out of "free"?
+UCL2016: Open Source GIS: Making a career out of "free"
 ============
 
 Talk to UCL GIS Postgrads, February 2nd 2017
