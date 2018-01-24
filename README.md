@@ -1,8 +1,8 @@
-=======
-UCL2016: Open Source GIS: Making a career out of "free"
+
+UCL2018: Try Open Source, it's good for you
 ============
 
-Talk to UCL GIS Postgrads, February 2nd 2017
+Talk to UCL GIS Postgrads, January 25th 2018
 
-Online version at http://archaeogeek.github.io/ucl_2017
+Online version at http://archaeogeek.github.io/UCL2018
 
